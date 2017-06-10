@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="fe3984adad4d40a08961294ed7ff1d81" Name="Diagram1" ZoomLevel="98">
+        <EntityTypeShape EntityType="CresmontModel.Calificaciones" Width="1.5" PointX="3" PointY="0.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="CresmontModel.Carteleras" Width="1.5" PointX="0.875" PointY="4.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="CresmontModel.Generos" Width="1.5" PointX="5" PointY="1.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="CresmontModel.Peliculas" Width="1.5" PointX="0.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="CresmontModel.Reservas" Width="1.5" PointX="3.25" PointY="2.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="CresmontModel.Sedes" Width="1.5" PointX="2.875" PointY="6.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="CresmontModel.TiposDocumentos" Width="1.5" PointX="5.75" PointY="4.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="CresmontModel.Usuarios" Width="1.5" PointX="6.75" PointY="0.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="CresmontModel.Versiones" Width="1.5" PointX="3.625" PointY="9.125" IsExpanded="true" />
+        <AssociationConnector Association="CresmontModel.FK_Peliculas_Calificaciones" ManuallyRouted="false" />
+        <AssociationConnector Association="CresmontModel.FK_Carteleras_Peliculas" ManuallyRouted="false" />
+        <AssociationConnector Association="CresmontModel.FK_Carteleras_Sedes" ManuallyRouted="false" />
+        <AssociationConnector Association="CresmontModel.FK_Carteleras_Versiones" ManuallyRouted="false" />
+        <AssociationConnector Association="CresmontModel.FK_Peliculas_Generos" ManuallyRouted="false" />
+        <AssociationConnector Association="CresmontModel.FK_Reservas_Peliculas" ManuallyRouted="false" />
+        <AssociationConnector Association="CresmontModel.FK_Reservas_Sedes" ManuallyRouted="false" />
+        <AssociationConnector Association="CresmontModel.FK_Reservas_TiposDocumentos" ManuallyRouted="false" />
+        <AssociationConnector Association="CresmontModel.FK_Reservas_Versiones" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
