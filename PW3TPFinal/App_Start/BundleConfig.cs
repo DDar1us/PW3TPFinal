@@ -1,7 +1,7 @@
 ﻿using System.Web;
 using System.Web.Optimization;
 
-namespace Programacion_3_TP_FInal
+namespace PW3TPFinal
 {
     public class BundleConfig
     {

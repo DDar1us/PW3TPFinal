@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>f504a855-77f0-4b0f-a13d-9f3de29d7a6e</ProjectGuid>
+    <ProjectGuid>d00443e3-2180-489c-b0d1-9603b8a9124a</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>PW3TPFinal.logica</RootNamespace>

@@ -1,4 +1,4 @@
-﻿using PW3TPFinal.Context;
+﻿using PW3TPFinal.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -20,7 +20,7 @@ namespace PW3TPFinal.Controllers
             return View();
         }
         [HttpPost]
-        public ActionResult Login(Peliculas p)
+        public ActionResult Reserva(Peliculas p)
         {
             return RedirectToAction("Inicio");
         }

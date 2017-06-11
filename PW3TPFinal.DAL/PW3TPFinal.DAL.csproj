@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>d978238a-7ca2-4dd2-bd45-1c937042e926</ProjectGuid>
+    <ProjectGuid>e3ce9b48-90da-4994-b447-0b7f1af5da8d</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>PW3TPFinal.DAL</RootNamespace>
