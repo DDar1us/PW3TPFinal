@@ -12,7 +12,9 @@ namespace PW3TPFinal.Controllers
         // GET: Home
         public ActionResult Inicio()
         {
-            return View();
+            CresmontContext carteleras = new CresmontContext();
+            List<Carteleras> listCartelera = carteleras.Carteleras.ToList();
+            return View(listCartelera);
         }
         [HttpGet]
         public ActionResult Login()

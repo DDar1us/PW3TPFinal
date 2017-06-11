@@ -10,7 +10,7 @@ namespace PW3TPFinal.Controllers
     public class PeliculasController : Controller
     {
         // GET: Peliculas
-        public ActionResult Index()
+        public ActionResult Inicio()
         {
             return View();
         }
